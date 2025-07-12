@@ -1,0 +1,189 @@
+[2025-07-12 22:09:26] [NOTICE] Heartbeat started at 2025-07-12 22:09:26 (PID: 91329)
+[2025-07-12 22:09:26] [NOTICE] Log file: logs/heartbeat_20250712220926.log
+[2025-07-12 22:09:26] [NOTICE] Heartbeat monitor started at 2025-07-12 22:09:26
+[2025-07-12 22:09:26] [NOTICE] Monitored directories: artifacts
+[2025-07-12 22:09:26] [NOTICE] Warning threshold: 5 minutes
+[2025-07-12 22:09:26] [NOTICE] Stop threshold: 10 minutes
+[2025-07-12 22:09:26] [NOTICE] Sending initial heartbeat immediately after startup...
+[2025-07-12 22:09:27] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:10:31] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:11:36] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:12:40] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:13:45] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:14:49] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:15:54] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:16:59] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:18:03] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:19:08] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:20:12] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:21:17] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:22:22] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:23:25] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:23:25] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:23:26] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:24:29] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:24:29] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:24:30] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:25:34] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:25:34] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:25:35] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:26:39] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:26:39] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:26:40] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:27:42] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 313 seconds
+[2025-07-12 22:27:42] [WARNING] Thinking log frequency warning: No thinking log updates for 5 minutes.
+[2025-07-12 22:27:42] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:27:42] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:28:14] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:29:16] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 407 seconds
+[2025-07-12 22:29:16] [WARNING] Thinking log frequency warning: No thinking log updates for 6 minutes.
+[2025-07-12 22:29:16] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:29:16] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:29:17] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:30:20] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 471 seconds
+[2025-07-12 22:30:20] [WARNING] Thinking log frequency warning: No thinking log updates for 7 minutes.
+[2025-07-12 22:30:21] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:31:24] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 535 seconds
+[2025-07-12 22:31:24] [WARNING] Thinking log frequency warning: No thinking log updates for 8 minutes.
+[2025-07-12 22:31:25] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:32:28] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 599 seconds
+[2025-07-12 22:32:28] [WARNING] Thinking log frequency warning: No thinking log updates for 9 minutes.
+[2025-07-12 22:32:29] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:33:32] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1445 seconds
+[2025-07-12 22:33:32] [WARNING] Introspection activity warning: No introspection activity for 24 minutes.
+[2025-07-12 22:33:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:34:37] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1510 seconds
+[2025-07-12 22:34:37] [WARNING] Introspection activity warning: No introspection activity for 25 minutes.
+[2025-07-12 22:34:38] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:35:42] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:36:47] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:37:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:38:55] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:39:58] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 312 seconds
+[2025-07-12 22:39:58] [WARNING] Thinking log frequency warning: No thinking log updates for 5 minutes.
+[2025-07-12 22:39:59] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:41:02] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 376 seconds
+[2025-07-12 22:41:02] [WARNING] Thinking log frequency warning: No thinking log updates for 6 minutes.
+[2025-07-12 22:41:03] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:42:08] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:43:13] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:44:17] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:45:22] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:46:24] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 310 seconds
+[2025-07-12 22:46:24] [WARNING] Thinking log frequency warning: No thinking log updates for 5 minutes.
+[2025-07-12 22:46:24] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:46:25] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:46:26] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:47:28] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 374 seconds
+[2025-07-12 22:47:28] [WARNING] Thinking log frequency warning: No thinking log updates for 6 minutes.
+[2025-07-12 22:47:29] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:48:32] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 437 seconds
+[2025-07-12 22:48:32] [WARNING] Thinking log frequency warning: No thinking log updates for 7 minutes.
+[2025-07-12 22:48:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:49:36] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 501 seconds
+[2025-07-12 22:49:36] [WARNING] Thinking log frequency warning: No thinking log updates for 8 minutes.
+[2025-07-12 22:49:37] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:50:39] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 565 seconds
+[2025-07-12 22:50:39] [WARNING] Thinking log frequency warning: No thinking log updates for 9 minutes.
+[2025-07-12 22:50:40] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:50:40] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:50:41] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:51:43] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 629 seconds
+[2025-07-12 22:51:44] [WARNING] Thinking log frequency error: No thinking log updates for 10 minutes.
+[2025-07-12 22:51:44] [WARNING] Abnormal activity detected: 思考ログ頻度異常 (attempt 1/3)
+[2025-07-12 22:51:44] [NOTICE] Interrupting agent process...
+[2025-07-12 22:51:46] [NOTICE] Agent processing has been interrupted.
+[2025-07-12 22:51:46] [NOTICE] Sending context compression command...
+[2025-07-12 22:52:18] [NOTICE] Context compression completed.
+[2025-07-12 22:52:18] [NOTICE] Saving chat with tag: HEARTBEAT_20250712220926_20250712225218
+[2025-07-12 22:52:51] [NOTICE] Chat saved with tag: HEARTBEAT_20250712220926_20250712225218
+[2025-07-12 22:52:51] [NOTICE] Context compression and recovery message prepared, entering recovery waiting state.
+[2025-07-12 22:52:51] [NOTICE] Found 1 unprocessed feedback files
+[2025-07-12 22:52:51] [NOTICE] Feedback notification included in heartbeat
+[2025-07-12 22:52:52] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:52:52] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 698 seconds
+[2025-07-12 22:52:52] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 22:53:54] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 760 seconds
+[2025-07-12 22:53:54] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 22:54:56] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 822 seconds
+[2025-07-12 22:54:56] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 22:55:59] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 885 seconds
+[2025-07-12 22:55:59] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 22:57:02] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 947 seconds
+[2025-07-12 22:57:02] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 22:57:02] [WARNING] Recovery wait timeout. Returning to normal state for next recovery attempt...
+[2025-07-12 22:58:04] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1010 seconds
+[2025-07-12 22:58:05] [WARNING] Thinking log frequency error: No thinking log updates for 16 minutes.
+[2025-07-12 22:58:05] [WARNING] Abnormal activity detected: 思考ログ頻度異常 (attempt 2/3)
+[2025-07-12 22:58:05] [NOTICE] Interrupting agent process...
+[2025-07-12 22:58:07] [NOTICE] Agent processing has been interrupted.
+[2025-07-12 22:58:07] [NOTICE] Sending context compression command...
+[2025-07-12 22:58:39] [NOTICE] Context compression completed.
+[2025-07-12 22:58:39] [NOTICE] Saving chat with tag: HEARTBEAT_20250712220926_20250712225839
+[2025-07-12 22:59:12] [NOTICE] Chat saved with tag: HEARTBEAT_20250712220926_20250712225839
+[2025-07-12 22:59:12] [NOTICE] Context compression and recovery message prepared, entering recovery waiting state.
+[2025-07-12 22:59:13] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:59:13] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1079 seconds
+[2025-07-12 22:59:13] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 23:00:15] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1141 seconds
+[2025-07-12 23:00:15] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 23:01:17] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1203 seconds
+[2025-07-12 23:01:17] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 23:02:20] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1266 seconds
+[2025-07-12 23:02:20] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 23:03:22] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1328 seconds
+[2025-07-12 23:03:22] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 23:03:22] [WARNING] Recovery wait timeout. Returning to normal state for next recovery attempt...
+[2025-07-12 23:04:25] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1391 seconds
+[2025-07-12 23:04:25] [WARNING] Thinking log frequency error: No thinking log updates for 23 minutes.
+[2025-07-12 23:04:25] [WARNING] Abnormal activity detected: 思考ログ頻度異常 (attempt 3/3)
+[2025-07-12 23:04:25] [NOTICE] Interrupting agent process...
+[2025-07-12 23:04:27] [NOTICE] Agent processing has been interrupted.
+[2025-07-12 23:04:27] [NOTICE] Sending context compression command...
+[2025-07-12 23:04:59] [NOTICE] Context compression completed.
+[2025-07-12 23:04:59] [NOTICE] Saving chat with tag: HEARTBEAT_20250712220926_20250712230459
+[2025-07-12 23:05:31] [NOTICE] Chat saved with tag: HEARTBEAT_20250712220926_20250712230459
+[2025-07-12 23:05:31] [NOTICE] Context compression and recovery message prepared, entering recovery waiting state.
+[2025-07-12 23:05:32] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:05:33] [WARNING] [CHECK] Thinking log frequency error detected (code 11): 1458 seconds
+[2025-07-12 23:05:33] [WARNING] Agent health check failed with status 11. Recovery not yet confirmed.
+[2025-07-12 23:06:35] [NOTICE] Agent health check passed. Recovery confirmed.
+[2025-07-12 23:06:35] [NOTICE] Agent recovery confirmed. Returning to normal state.
+[2025-07-12 23:07:39] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:08:43] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:09:48] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:10:51] [WARNING] [CHECK] Thinking log timestamp warning detected (code 19): 319 seconds
+[2025-07-12 23:10:51] [WARNING] Thinking log timestamp warning: Timestamp is 5 minutes old.
+[2025-07-12 23:10:52] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:11:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:12:59] [WARNING] [CHECK] Thinking log pattern error detected (code 13):        3 files
+[2025-07-12 23:12:59] [WARNING] Thinking log pattern error:        3 files with same timestamp detected.
+[2025-07-12 23:12:59] [WARNING] Abnormal activity detected: 思考ログパターン異常 (attempt 1/3)
+[2025-07-12 23:12:59] [NOTICE] Interrupting agent process...
+[2025-07-12 23:13:01] [NOTICE] Agent processing has been interrupted.
+[2025-07-12 23:13:01] [NOTICE] Sending context compression command...
+[2025-07-12 23:13:34] [NOTICE] Context compression completed.
+[2025-07-12 23:13:34] [NOTICE] Saving chat with tag: HEARTBEAT_20250712220926_20250712231334
+[2025-07-12 23:14:06] [NOTICE] Chat saved with tag: HEARTBEAT_20250712220926_20250712231334
+[2025-07-12 23:14:06] [NOTICE] Context compression and recovery message prepared, entering recovery waiting state.
+[2025-07-12 23:14:07] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:14:08] [WARNING] [CHECK] Thinking log pattern error detected (code 13):        3 files
+[2025-07-12 23:14:08] [WARNING] Agent health check failed with status 13. Recovery not yet confirmed.
+[2025-07-12 23:15:10] [WARNING] [CHECK] Thinking log pattern error detected (code 13):        3 files
+[2025-07-12 23:15:10] [WARNING] Agent health check failed with status 13. Recovery not yet confirmed.
+[2025-07-12 23:16:13] [WARNING] [CHECK] Thinking log pattern error detected (code 13):        3 files
+[2025-07-12 23:16:13] [WARNING] Agent health check failed with status 13. Recovery not yet confirmed.
+[2025-07-12 23:17:15] [WARNING] [CHECK] Thinking log pattern error detected (code 13):        3 files
+[2025-07-12 23:17:15] [WARNING] Agent health check failed with status 13. Recovery not yet confirmed.
+[2025-07-12 23:18:18] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 333 seconds
+[2025-07-12 23:18:18] [WARNING] Agent health check failed with status 10. Recovery not yet confirmed.
+[2025-07-12 23:18:18] [WARNING] Recovery wait timeout. Returning to normal state for next recovery attempt...
+[2025-07-12 23:19:21] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 396 seconds
+[2025-07-12 23:19:21] [WARNING] Thinking log frequency warning: No thinking log updates for 6 minutes.
+[2025-07-12 23:19:22] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:20:25] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 459 seconds
+[2025-07-12 23:20:25] [WARNING] Thinking log frequency warning: No thinking log updates for 7 minutes.
+[2025-07-12 23:20:26] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:21:27] [WARNING] Shutdown signal received. Finishing current cycle and exiting gracefully...
+[2025-07-12 23:21:27] [NOTICE] Shutdown requested, interrupting sleep.
+[2025-07-12 23:21:27] [NOTICE] Heartbeat stopped gracefully at 2025-07-12 23:21:27

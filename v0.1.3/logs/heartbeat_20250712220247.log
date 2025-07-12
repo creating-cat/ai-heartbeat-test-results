@@ -1,0 +1,11 @@
+[2025-07-12 22:02:47] [NOTICE] Heartbeat started at 2025-07-12 22:02:47 (PID: 80594)
+[2025-07-12 22:02:47] [NOTICE] Log file: logs/heartbeat_20250712220247.log
+[2025-07-12 22:02:47] [NOTICE] Heartbeat monitor started at 2025-07-12 22:02:47
+[2025-07-12 22:02:47] [NOTICE] Monitored directories: artifacts
+[2025-07-12 22:02:47] [NOTICE] Warning threshold: 5 minutes
+[2025-07-12 22:02:47] [NOTICE] Stop threshold: 10 minutes
+[2025-07-12 22:02:47] [NOTICE] Sending initial heartbeat immediately after startup...
+[2025-07-12 22:03:52] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 22:04:34] [WARNING] Shutdown signal received. Finishing current cycle and exiting gracefully...
+[2025-07-12 22:04:34] [NOTICE] Shutdown requested, interrupting sleep.
+[2025-07-12 22:04:34] [NOTICE] Heartbeat stopped gracefully at 2025-07-12 22:04:34

@@ -1,0 +1,22 @@
+[2025-07-12 21:33:25] [NOTICE] Heartbeat started at 2025-07-12 21:33:25 (PID: 52288)
+[2025-07-12 21:33:25] [NOTICE] Log file: logs/heartbeat_20250712213325.log
+[2025-07-12 21:33:25] [NOTICE] Heartbeat monitor started at 2025-07-12 21:33:25
+[2025-07-12 21:33:25] [NOTICE] Monitored directories: artifacts
+[2025-07-12 21:33:25] [NOTICE] Warning threshold: 5 minutes
+[2025-07-12 21:33:25] [NOTICE] Stop threshold: 10 minutes
+[2025-07-12 21:34:29] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:35:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:36:38] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:37:42] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:38:46] [WARNING] [CHECK] Thinking log timestamp warning detected (code 19): 320 seconds
+[2025-07-12 21:38:46] [WARNING] Thinking log timestamp warning: Timestamp is 5 minutes old.
+[2025-07-12 21:38:47] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:39:50] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 326 seconds
+[2025-07-12 21:39:50] [WARNING] Thinking log frequency warning: No thinking log updates for 5 minutes.
+[2025-07-12 21:39:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:40:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:42:01] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:43:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 21:44:14] [WARNING] Shutdown signal received. Finishing current cycle and exiting gracefully...
+[2025-07-12 21:44:14] [NOTICE] Shutdown requested, interrupting sleep.
+[2025-07-12 21:44:14] [NOTICE] Heartbeat stopped gracefully at 2025-07-12 21:44:14

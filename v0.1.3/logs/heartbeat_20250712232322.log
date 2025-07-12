@@ -1,0 +1,21 @@
+[2025-07-12 23:23:22] [NOTICE] Heartbeat started at 2025-07-12 23:23:22 (PID: 81642)
+[2025-07-12 23:23:22] [NOTICE] Log file: logs/heartbeat_20250712232322.log
+[2025-07-12 23:23:22] [NOTICE] Heartbeat monitor started at 2025-07-12 23:23:22
+[2025-07-12 23:23:22] [NOTICE] Monitored directories: artifacts
+[2025-07-12 23:23:22] [NOTICE] Warning threshold: 5 minutes
+[2025-07-12 23:23:22] [NOTICE] Stop threshold: 10 minutes
+[2025-07-12 23:23:22] [NOTICE] Sending initial heartbeat immediately after startup...
+[2025-07-12 23:23:23] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:24:26] [WARNING] [CHECK] Thinking log pattern error detected (code 13):        3 files
+[2025-07-12 23:24:26] [WARNING] Thinking log pattern error:        3 files with same timestamp detected.
+[2025-07-12 23:24:26] [WARNING] Abnormal activity detected: 思考ログパターン異常 (attempt 1/3)
+[2025-07-12 23:24:26] [NOTICE] Interrupting agent process...
+[2025-07-12 23:24:28] [NOTICE] Agent processing has been interrupted.
+[2025-07-12 23:24:28] [NOTICE] Sending context compression command...
+[2025-07-12 23:24:40] [WARNING] Shutdown signal received. Finishing current cycle and exiting gracefully...
+[2025-07-12 23:24:40] [NOTICE] Shutdown requested, interrupting sleep.
+[2025-07-12 23:24:40] [NOTICE] Context compression completed.
+[2025-07-12 23:24:40] [NOTICE] Saving chat with tag: HEARTBEAT_20250712232322_20250712232440
+[2025-07-12 23:24:42] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-12 23:24:42] [NOTICE] Shutdown requested, interrupting sleep.
+[2025-07-12 23:24:42] [NOTICE] Heartbeat stopped gracefully at 2025-07-12 23:24:42
