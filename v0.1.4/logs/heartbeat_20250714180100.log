@@ -1,0 +1,217 @@
+[2025-07-14 18:01:00] [NOTICE] Heartbeat started at 2025-07-14 18:01:00 (PID: 72228)
+[2025-07-14 18:01:00] [NOTICE] Log file: logs/heartbeat_20250714180100.log
+[2025-07-14 18:01:00] [NOTICE] Heartbeat monitor started at 2025-07-14 18:01:00
+[2025-07-14 18:01:00] [NOTICE] Monitored directories: artifacts
+[2025-07-14 18:01:00] [NOTICE] Warning threshold: 5 minutes
+[2025-07-14 18:01:00] [NOTICE] Stop threshold: 10 minutes
+[2025-07-14 18:01:00] [NOTICE] Sending initial heartbeat immediately after startup...
+[2025-07-14 18:01:01] [HEARTBEAT] Initial heartbeat sent to agent session
+[2025-07-14 18:01:01] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:02:05] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:03:09] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:04:13] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:05:17] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:06:22] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:07:26] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:08:31] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:09:35] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:10:39] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:11:44] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:12:48] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:13:53] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:14:57] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:16:01] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:17:06] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:18:10] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:19:15] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:20:19] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:21:23] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:22:28] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:23:32] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:24:37] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:25:41] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:26:44] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1259 seconds
+[2025-07-14 18:26:44] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 18:26:46] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:27:50] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:28:55] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:30:00] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:31:05] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:32:10] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:33:14] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:34:19] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:35:23] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:36:27] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:37:32] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:38:36] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:39:41] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:40:45] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:41:50] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:42:54] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:43:59] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:45:02] [WARNING] [CHECK] Thinking log timestamp warning detected (code 19): 301 seconds
+[2025-07-14 18:45:02] [WARNING] Thinking log timestamp warning: Timestamp is 5 minutes old.
+[2025-07-14 18:45:03] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:46:08] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:47:12] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:48:15] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1258 seconds
+[2025-07-14 18:48:15] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 18:48:17] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:49:21] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:50:26] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:51:30] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:52:34] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:53:38] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:54:43] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:55:47] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:56:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:57:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 18:59:00] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:00:04] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:01:08] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:02:12] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:03:16] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:04:21] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:05:25] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:06:30] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:07:34] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:08:38] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:09:41] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1251 seconds
+[2025-07-14 19:09:41] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 19:09:42] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:10:47] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:11:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:12:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:14:00] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:15:04] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:16:09] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:17:13] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:18:18] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:19:23] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:20:27] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:21:31] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:22:36] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:23:40] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:24:45] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:25:49] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:26:53] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:27:58] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:29:02] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:30:07] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:31:10] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1248 seconds
+[2025-07-14 19:31:10] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 19:31:11] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:32:14] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1312 seconds
+[2025-07-14 19:32:14] [WARNING] Introspection activity warning: No introspection activity for 21 minutes.
+[2025-07-14 19:32:15] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:33:20] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:34:24] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:35:29] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:36:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:37:38] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:38:42] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:39:47] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:40:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:41:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:43:01] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:44:05] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:45:09] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:46:14] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:47:18] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:48:24] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:49:28] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:50:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:51:38] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:52:42] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:53:45] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1251 seconds
+[2025-07-14 19:53:45] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 19:53:47] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:54:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:55:55] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:57:00] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:58:04] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 19:59:09] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:00:14] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:01:18] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:02:23] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:03:27] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:04:32] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:05:36] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:06:41] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:07:45] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:08:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:09:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:11:00] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:12:04] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:13:09] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:14:13] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:15:16] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1247 seconds
+[2025-07-14 20:15:16] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 20:15:17] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:16:20] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1312 seconds
+[2025-07-14 20:16:21] [WARNING] Introspection activity warning: No introspection activity for 21 minutes.
+[2025-07-14 20:16:22] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:17:28] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:18:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:19:37] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:20:41] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:21:47] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:22:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:23:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:25:00] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:26:05] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:27:09] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:28:14] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:29:18] [WARNING] [CHECK] Thinking log timestamp warning detected (code 19): 321 seconds
+[2025-07-14 20:29:18] [WARNING] Thinking log timestamp warning: Timestamp is 5 minutes old.
+[2025-07-14 20:29:19] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:30:24] [WARNING] [CHECK] Thinking log timestamp warning detected (code 19): 387 seconds
+[2025-07-14 20:30:24] [WARNING] Thinking log timestamp warning: Timestamp is 6 minutes old.
+[2025-07-14 20:30:25] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:31:27] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 301 seconds
+[2025-07-14 20:31:28] [WARNING] Thinking log frequency warning: No thinking log updates for 5 minutes.
+[2025-07-14 20:31:29] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:32:31] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 365 seconds
+[2025-07-14 20:32:31] [WARNING] Thinking log frequency warning: No thinking log updates for 6 minutes.
+[2025-07-14 20:32:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:33:37] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 430 seconds
+[2025-07-14 20:33:37] [WARNING] Thinking log frequency warning: No thinking log updates for 7 minutes.
+[2025-07-14 20:33:39] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:34:42] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 496 seconds
+[2025-07-14 20:34:42] [WARNING] Thinking log frequency warning: No thinking log updates for 8 minutes.
+[2025-07-14 20:34:44] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:35:46] [WARNING] [CHECK] Thinking log frequency warning detected (code 10): 560 seconds
+[2025-07-14 20:35:46] [WARNING] Thinking log frequency warning: No thinking log updates for 9 minutes.
+[2025-07-14 20:35:48] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:36:52] [WARNING] [CHECK] Thinking log timestamp warning detected (code 19): 582 seconds
+[2025-07-14 20:36:52] [WARNING] Thinking log timestamp warning: Timestamp is 9 minutes old.
+[2025-07-14 20:36:54] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:37:57] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1244 seconds
+[2025-07-14 20:37:57] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 20:37:58] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:39:02] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:40:07] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:41:12] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:42:16] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:43:23] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:44:28] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:45:33] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:46:38] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:47:42] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:48:46] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:49:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:50:56] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:52:02] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:53:06] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:54:16] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:55:22] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:56:27] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:57:32] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:58:36] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 20:59:40] [WARNING] [CHECK] Introspection activity warning detected (code 17): 1251 seconds
+[2025-07-14 20:59:40] [WARNING] Introspection activity warning: No introspection activity for 20 minutes.
+[2025-07-14 20:59:41] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 21:00:46] [HEARTBEAT] Heartbeat sent to agent session
+[2025-07-14 21:01:24] [WARNING] Shutdown signal received. Finishing current cycle and exiting gracefully...
+[2025-07-14 21:01:24] [NOTICE] Shutdown requested, interrupting sleep.
+[2025-07-14 21:01:24] [NOTICE] Heartbeat stopped gracefully at 2025-07-14 21:01:24
