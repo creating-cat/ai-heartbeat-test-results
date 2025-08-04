@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ai-heartbeat-mcp": {
+      "command": "node",
+      "args": [
+        "../mcp/ai-heartbeat-mcp/dist/index.js"
+      ],
+      "trust": true
+    }
+  }
+}

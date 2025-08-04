@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/s_fumi/work/gemini/ai-heartbeat/ai-works/logs/.f1964cc02e79d1827b96361ca58ed338d7e1e2d5-audit.json",
+    "files": [
+        {
+            "date": 1754280933723,
+            "name": "/Users/s_fumi/work/gemini/ai-heartbeat/ai-works/logs/mcp-puppeteer-2025-08-04.log",
+            "hash": "e2aa96bff5c92b571194c1fbfacca9d4510c9c8eeacff3c7f254adfc4948cfdd"
+        }
+    ],
+    "hashType": "sha256"
+}
