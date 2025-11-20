@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生態系のバランス - イベントカード</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="site-title"><a href="index.html">生態系のバランス</a></h1>
+            <div class="nav-toggle">&#9776;</div> <!-- Hamburger icon -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="overview.html">Game Overview</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="components.html">Components</a></li>
+                    <li><a href="event_cards.html">Event Cards</a></li>
+                    <li><a href="difficulty_variants.html">Difficulty & Variants</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>イベントカード</h1>
+
+            <section>
+                <h2>9.1. イベントカードのテーマとカテゴリ</h2>
+                <p>生態系における主要な影響源から、以下のカテゴリのイベントカードを検討しています。</p>
+                <ul>
+                    <li><strong>自然災害</strong>: 短期的かつ広範囲に影響を与えるイベント。</li>
+                    <li><strong>気候変動</strong>: 長期的に環境を変化させるイベント。</li>
+                    <li><strong>リソース変動</strong>: 特定のリソースの供給または需要に影響を与えるイベント。</li>
+                    <li><strong>生物学的イベント</strong>: 特定の種に直接影響を与えるイベント（病気、繁殖ブームなど）。</li>
+                    <li><strong>相互作用イベント</strong>: プレイヤー間の関係に変化をもたらすイベント。</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>9.2. 具体的なイベントカード効果 (20枚の山札を想定)</h2>
+
+                <h3>9.2.1. 自然災害 (5枚)</h3>
+                <div class="card-list">
+                    <div class="card-item">
+                        <h4>干ばつ</h4>
+                        <img src="images/event_drought_placeholder.jpg" alt="干ばつ" class="card-image">
+                        <p>全ての水辺タイルから水リソースを2つ除去する。そのラウンドの維持フェーズにおいて、水リソースの消費量が1増加する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>山火事</h4>
+                        <img src="images/event_wildfire_placeholder.jpg" alt="山火事" class="card-image">
+                        <p>プレイヤーが指定した森林タイル1つから全ての食料リソースと植物コマを1つ除去する。そのタイルは「焼けた土地」となり、2ラウンドの間、リソース生産と繁殖が不可能になる。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>大洪水</h4>
+                        <img src="images/event_flood_placeholder.jpg" alt="大洪水" class="card-image">
+                        <p>全ての草原タイルから食料リソースを1つ除去する。被食者プレイヤーは、そのラウンドのアクションフェーズで移動アクションのコストが1増加する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>地震</h4>
+                        <img src="images/event_earthquake_placeholder.jpg" alt="地震" class="card-image">
+                        <p>全てのタイルからランダムに1つのリソースを失う。捕食者プレイヤーは移動アクションのコストが1増加する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>暴風雨</h4>
+                        <img src="images/event_storm_placeholder.jpg" alt="暴風雨" class="card-image">
+                        <p>全てのタイルからランダムに1つの水リソースを追加する。植物プレイヤーは繁殖アクションのコストが1増加する。</p>
+                    </div>
+                </div>
+
+                <h3>9.2.2. 気候変動 (3枚)</h3>
+                <div class="card-list">
+                    <div class="card-item">
+                        <h4>暖冬</h4>
+                        <img src="images/event_mildwinter_placeholder.jpg" alt="暖冬" class="card-image">
+                        <p>全てのプレイヤーは、次の2ラウンドの間、維持フェーズでの食料消費量が1減少する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>冷夏</h4>
+                        <img src="images/event_coldsummer_placeholder.jpg" alt="冷夏" class="card-image">
+                        <p>全てのプレイヤーは、次の2ラウンドの間、維持フェーズでの水消費量が1増加する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>モンスーン</h4>
+                        <img src="images/event_monsoon_placeholder.jpg" alt="モンスーン" class="card-image">
+                        <p>全ての水辺タイルと草原タイルに水リソースを1つ追加する。次のイベントフェーズまで、水関連イベントカードの発生確率が上昇する。</p>
+                    </div>
+                </div>
+
+                <h3>9.2.3. リソース変動 (4枚)</h3>
+                <div class="card-list">
+                    <div class="card-item">
+                        <h4>資源発見</h4>
+                        <img src="images/event_resourcediscovery_placeholder.jpg" alt="資源発見" class="card-image">
+                        <p>プレイヤーが指定したタイル1つに、指定されたリソース（食料、水、エネルギーのいずれか）を3つ追加する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>資源枯渇</h4>
+                        <img src="images/event_resourcedepletion_placeholder.jpg" alt="資源枯渇" class="card-image">
+                        <p>プレイヤーが指定したタイル1つから、指定されたリソースを全て除去する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>鉱脈の発見</h4>
+                        <img src="images/event_minediscovery_placeholder.jpg" alt="鉱脈の発見" class="card-image">
+                        <p>全ての荒地タイルにエネルギーリソースを2つ追加する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>海の恵み</h4>
+                        <img src="images/event_seaharvest_placeholder.jpg" alt="海の恵み" class="card-image">
+                        <p>全ての水辺タイルに食料リソースを1つ追加する。被食者プレイヤーは、食料獲得アクションで獲得できる食料が1増加する。</p>
+                    </div>
+                </div>
+
+                <h3>9.2.4. 生物学的イベント (5枚)</h3>
+                <div class="card-list">
+                    <div class="card-item">
+                        <h4>繁殖ブーム</h4>
+                        <img src="images/event_breedingboom_placeholder.jpg" alt="繁殖ブーム" class="card-image">
+                        <p>プレイヤーが指定した植物または被食者の種の繁殖アクションのコストが、次のラウンドの間、食料1減少する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>病気蔓延</h4>
+                        <img src="images/event_disease_placeholder.jpg" alt="病気蔓延" class="card-image">
+                        <p>プレイヤーが指定した1種類の種のコマを、各プレイヤーのマップ上のコマから1つずつ除去する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>異常増殖</h4>
+                        <img src="images/event_overpopulation_placeholder.jpg" alt="異常増殖" class="card-image">
+                        <p>プレイヤーが指定した1種類の種のコマを、各プレイヤーのコマストックから2つ追加する。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>大移動</h4>
+                        <img src="images/event_migration_placeholder.jpg" alt="大移動" class="card-image">
+                        <p>プレイヤーが指定した1種類の種のコマを、全て強制的に隣接するタイルに移動させる（移動コスト無視）。移動先はランダムまたはイベントカードで指定。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>突然変異</h4>
+                        <img src="images/event_mutation_placeholder.jpg" alt="突然変異" class="card-image">
+                        <p>プレイヤーが指定した1種類の種のコマ1つに、次のラウンドの間、特殊能力を付与する (例: 消費リソース半減、移動力増加)。</p>
+                    </div>
+                </div>
+
+                <h3>9.2.5. 相互作用イベント (3枚)</h3>
+                <div class="card-list">
+                    <div class="card-item">
+                        <h4>共生関係</h4>
+                        <img src="images/event_symbiosis_placeholder.jpg" alt="共生関係" class="card-image">
+                        <p>捕食者プレイヤー1人と被食者プレイヤー1人を指定する。次のラウンドの間、捕食者が被食者から食料を得る際、被食者も食料を1つ得る。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>縄張り争い</h4>
+                        <img src="images/event_territorial_placeholder.jpg" alt="縄張り争い" class="card-image">
+                        <p>捕食者プレイヤー2人を指定する。次のラウンドの間、指定された2人の捕食者は同じタイルにコマを配置できない。</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>協力体制</h4>
+                        <img src="images/event_cooperation_placeholder.jpg" alt="協力体制" class="card-image">
+                        <p>プレイヤー2人を指定する。次のラウンドの間、指定された2人のプレイヤーはアクションマーカーを共有できる。</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="overview.html">Game Overview</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="components.html">Components</a></li>
+                    <li><a href="event_cards.html">Event Cards</a></li>
+                    <li><a href="difficulty_variants.html">Difficulty & Variants</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#" class="social-icon"><img src="images/twitter_placeholder.png" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="images/facebook_placeholder.png" alt="Facebook"></a>
+            </div>
+            <p>&copy; 2025 生態系のバランス. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

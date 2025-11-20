@@ -1,0 +1,21 @@
+[2025-11-20 12:56:42] [NOTICE] Heartbeat started at 2025-11-20 12:56:42 (PID: 51271)
+[2025-11-20 12:56:42] [NOTICE] Log file: ai-works/logs/heartbeat_20251120125642.log
+[2025-11-20 12:56:42] [NOTICE] Heartbeat monitor started at 2025-11-20 12:56:42
+[2025-11-20 12:56:42] [NOTICE] Monitored directories: artifacts
+[2025-11-20 12:56:42] [NOTICE] Warning threshold: 5 minutes
+[2025-11-20 12:56:42] [NOTICE] Stop threshold: 10 minutes
+[2025-11-20 12:56:42] [NOTICE] Sending initial heartbeat immediately after startup...
+[2025-11-20 12:56:45] [HEARTBEAT] Initial heartbeat sent to agent session
+[2025-11-20 12:56:45] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 12:57:52] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 12:59:00] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:00:07] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:01:14] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:02:22] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:03:29] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:04:36] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:05:43] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:06:51] [HEARTBEAT] Heartbeat sent to agent session
+[2025-11-20 13:07:07] [WARNING] Shutdown signal received. Finishing current cycle and exiting gracefully...
+[2025-11-20 13:07:07] [NOTICE] Shutdown requested, interrupting sleep.
+[2025-11-20 13:07:07] [NOTICE] Heartbeat stopped gracefully at 2025-11-20 13:07:07

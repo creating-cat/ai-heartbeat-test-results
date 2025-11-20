@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生態系のバランス - ルール説明</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="site-title"><a href="index.html">生態系のバランス</a></h1>
+            <div class="nav-toggle">&#9776;</div> <!-- Hamburger icon -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="overview.html">Game Overview</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="components.html">Components</a></li>
+                    <li><a href="event_cards.html">Event Cards</a></li>
+                    <li><a href="difficulty_variants.html">Difficulty & Variants</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        <main>
+            <div class="container rules-layout">
+                <nav id="toc-sidebar" class="toc-sidebar">
+                    <h2>目次</h2>
+                    <ul id="toc-list">
+                        <!-- TOC items will be dynamically generated here -->
+                    </ul>
+                </nav>
+    
+                <div class="rules-content">
+                    <h1>ルール説明</h1>
+    
+                    <section id="section-game-purpose">
+                        <h2>2. ゲームの目的 (勝利条件)</h2>
+                        <p>各プレイヤーの役割に応じて勝利条件が異なります。</p>
+                        <h3>2.1. 捕食者プレイヤー</h3>
+                        <ul>
+                            <li>自身の捕食対象となる種の個体数を一定数以下に抑えつつ、自身の個体数を最大化する。</li>
+                            <li>ゲーム終了時、最も個体数が多い捕食者プレイヤーが勝利。</li>
+                        </ul>
+                        <h3>2.2. 被食者プレイヤー</h3>
+                        <ul>
+                            <li>捕食者の活動を避けつつ、自身の種の個体数を一定数以上に維持する。</li>
+                            <li>ゲーム終了時、最も個体数が多い被食者プレイヤーが勝利。</li>
+                        </ul>
+                        <h3>2.3. 植物プレイヤー</h3>
+                        <ul>
+                            <li>生態系全体のリソース供給源として、自身の種の繁栄（マップ上の配置数）を最大化する。</li>
+                            <li>ゲーム終了時、マップ上に最も多く配置されている植物プレイヤーが勝利。</li>
+                        </ul>
+                        <h3>2.4. 環境要因プレイヤー (上級者向け、選択ルール)</h3>
+                        <ul>
+                            <li>ゲーム終了時、以下のポイント合計が最も多いプレイヤーが勝利する。
+                                <ul>
+                                    <li>環境操作アクションで引いたイベントカードの中から「自然災害」カテゴリのカードを適用した回数 × 2ポイント</li>
+                                    <li>生態系干渉アクションでコマを移動させた回数 × 1ポイント</li>
+                                    <li>ゲーム終了時に、全ての生物プレイヤーのコマ総数がゲーム開始時の総コマ数から20%以上減少していた場合、追加で5ポイント。</li>
+                                    <li>ゲーム終了時に、いずれかの生物プレイヤーの種が絶滅していた場合、追加で3ポイント。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+    
+                    <section id="section-game-setup">
+                        <h2>4. ゲームの準備</h2>
+                        <ol>
+                            <li><strong>ゲームボードの構成</strong>: 各プレイヤーは、ゲームボードタイルをランダムに引き、中央タイルを中心に自由に配置する。全てのタイルを配置したら、各地形タイルに初期リソーストークンを配置する (例: 森林タイルに食料2、草原タイルに食料1・水1、水辺タイルに水2、荒地タイルに食料0・水0・エネルギー0)。</li>
+                            <li><strong>役割の選択</strong>: 役割カードをシャッフルし、各プレイヤーに1枚ずつ配る。これにより、担当する種と勝利条件が決定する。</li>
+                            <li><strong>初期配置</strong>: 各プレイヤーは、自身の担当する種のコマを2個、ゲームボード上の任意の空きタイルに配置する。ただし、捕食者は被食者から2タイル以上離れた位置に、被食者は植物から1タイル以内の位置に配置すること。植物は任意の空きタイルに配置可能。</li>
+                            <li><strong>リソースの初期値</strong>: 各プレイヤーは食料2、水2、エネルギー1を初期リソースとして持つ。</li>
+                            <li><strong>イベントカードのシャッフル</strong>: イベントカードをシャッフルし、山札としてゲームボードの脇に置く。</li>
+                            <li><strong>スタートプレイヤーの決定</strong>: 最も最近自然に触れたプレイヤーがスタートプレイヤーとなり、アクションマーカー2個を受け取る。</li>
+                        </ol>
+                    </section>
+    
+                    <section id="section-game-flow">
+                        <h2>5. ゲームの流れ (ラウンド構成)</h2>
+                        <p>ゲームは全5ラウンド進行し、各ラウンドは以下の3つのフェーズで構成されます。</p>
+    
+                        <h3>5.1. イベントフェーズ</h3>
+                        <ol>
+                            <li><strong>イベントカードを引く</strong>: スタートプレイヤーがイベントカードの山札から1枚引き、公開する。</li>
+                            <li><strong>効果の適用</strong>: カードに記載された効果を直ちに適用する。
+                                <ul>
+                                    <li><strong>例</strong>: 「干ばつ発生」- 全ての水辺タイルから水リソースを2つ除去する。そのラウンドの維持フェーズにおいて、水リソースの消費量が1増加する。</li>
+                                    <li><strong>例</strong>: 「豊作」- 全ての森林タイルに食料リソースを1つ追加する。</li>
+                                    <li><strong>例</strong>: 「疫病」- 特定の種のコマを各プレイヤーのマップ上のコマから1つずつ除去する。</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <img src="images/event_phase_flowchart_placeholder.jpg" alt="イベントフェーズフローチャート" class="full-width-image">
+    
+                        <h3>5.2. アクションフェーズ</h3>
+                        <p>スタートプレイヤーから時計回りに、各プレイヤーはそれぞれのアクションマーカー2個を消費してアクションを実行します。1つのアクションマーカーで1つのアクションを実行できます。</p>
+    
+                        <h4>5.2.1. 共通アクション (全プレイヤー)</h4>
+                        <ul>
+                            <li><strong>移動 (コスト: 1アクションマーカー)</strong>: 自身のコマ1個を隣接するタイルに移動させる。荒地への移動は2アクションマーカーを消費する。</li>
+                            <li><strong>リソース獲得 (コスト: 1アクションマーカー)</strong>: 自身のコマが位置するタイルのリソースを1つ獲得する。獲得できるリソースはタイルの地形に依存する (例: 森林から食料、水辺から水)。</li>
+                        </ul>
+                        <img src="images/action_icons_placeholder.jpg" alt="アクションアイコン" class="small-image">
+    
+                        <h4>5.2.2. 役割別アクション (プレイヤーの役割カードに応じて実行可能)</h4>
+                        <h5>5.2.2.1. 捕食者プレイヤー</h5>
+                        <ul>
+                            <li><strong>捕食 (コスト: 1アクションマーカー)</strong>: 自身のコマと同じタイルにいる被食者コマを1つ除去し、食料リソースを2つ得る。被食者コマが除去された場合、その被食者プレイヤーは補充フェーズでコマを補充できない。</li>
+                            <li><strong>繁殖 (コスト: 食料2、水1消費)</strong>: 自身のコマがあるタイルに隣接する空きタイルに新たな捕食者コマを1つ配置する。配置できるコマ数は、残りのプレイヤーコマ数とボード上の空きタイル数に依存する。</li>
+                        </ul>
+                        <h5>5.2.2.2. 被食者プレイヤー</h5>
+                        <ul>
+                            <li><strong>摂食 (コスト: 1アクションマーカー)</strong>: 自身のコマと同じタイルにいる植物コマを1つ除去し、食料リソースを1つ得る。</li>
+                            <li><strong>繁殖 (コスト: 食料1、水1消費)</strong>: 自身のコマがあるタイルに隣接する空きタイルに新たな被食者コマを1つ配置する。配置できるコマ数は、残りのプレイヤーコマ数とボード上の空きタイル数に依存する。</li>
+                        </ul>
+                        <h5>5.2.2.3. 植物プレイヤー</h5>
+                        <ul>
+                            <li><strong>成長 (コスト: エネルギー1、水1消費)</strong>: 自身のコマがあるタイルに隣接する空きタイルに新たな植物コマを1つ配置する。配置できるコマ数は、残りのプレイヤーコマ数とボード上の空きタイル数に依存する。</li>
+                            <li><strong>リソース生成 (コスト: 1アクションマーカー)</strong>: 自身のコマが位置するタイルに、対応するリソースを1つ追加する。</li>
+                        </ul>
+                        <h5>5.2.2.4. 環境要因プレイヤー (上級者向け、選択ルール)</h5>
+                        <ul>
+                            <li><strong>環境操作 (コスト: 1アクションマーカー)</strong>: イベントカード山札から2枚引き、そのうち1枚を選択して即座に適用する。残りの1枚は山札の一番下に戻す。<strong>このアクションにより適用したイベントカードは、そのラウンドのイベントフェーズで引かれるイベントカードの効果と重複して発生する。</strong></li>
+                            <li><strong>生態系干渉 (コスト: エネルギー2消費)</strong>: ゲームボード上の任意のコマ1つを、隣接する空きタイルに強制的に移動させる。この移動は地形の影響を受けない。</li>
+                        </ul>
+    
+                        <h3>5.3. 維持フェーズ</h3>
+                        <ol>
+                            <li><strong>リソース消費</strong>: 各プレイヤーは、自身のゲームボード上のコマ1個につき食料1と水1を消費する。
+                                <ul>
+                                    <li>消費できないコマはゲームボードから除去される（飢餓または脱水）。除去されたコマは、各プレイヤーのコマストックに戻る。</li>
+                                </ul>
+                            </li>
+                            <li><strong>リソース生産</strong>: 各タイルは、その地形に応じたリソースを自動的に生産し、ゲームボード上に追加する (例: 森林タイルに食料1)。</li>
+                            <li><strong>アクションマーカーの補充</strong>: 全てのプレイヤーはアクションマーカーを2個に戻す。</li>
+                            <li><strong>スタートプレイヤーの交代</strong>: スタートプレイヤーマーカーを左隣のプレイヤーに渡す。</li>
+                        </ol>
+                    </section>
+    
+                    <section id="section-game-end">
+                        <h2>6. ゲーム終了条件</h2>
+                        <p>以下のいずれかの条件が満たされた場合、ゲームは終了します。</p>
+                        <ul>
+                            <li><strong>規定ラウンド数の終了</strong>: 全5ラウンドが終了した時点でゲーム終了。</li>
+                            <li><strong>絶滅</strong>: いずれかのプレイヤーのコマが全てゲームボード上から除去された場合、そのプレイヤーは敗北し、ゲームは直ちに終了。それ以外のプレイヤーで勝利条件を満たしている者が勝利。</li>
+                            <li><strong>特定種の絶滅</strong>: 特定の種の個体数がゲームボード上から完全に消滅した場合、その種を担当するプレイヤーは敗北し、ゲームは直ちに終了。それ以外のプレイヤーで勝利条件を満たしている者が勝利。</li>
+                        </ul>
+                    </section>
+    
+                    <section id="section-victory-check">
+                        <h2>7. 勝利条件の確認</h2>
+                        <p>ゲーム終了条件が満たされた後、各プレイヤーは自身の役割カードに記載された勝利条件を確認し、最も条件を満たしているプレイヤーが勝利者となります。複数のプレイヤーが勝利条件を満たしている場合は、達成度が高い方が勝利。それでも同点の場合は、残りのリソースの総量が多い方が勝利。</p>
+                    </section>
+    
+                    <section id="section-special-abilities">
+                        <h2>8. 各役割の特殊能力と追加アクション</h2>
+                        <h3>8.1. 捕食者プレイヤー</h3>
+                        <ul>
+                            <li><strong>特殊能力</strong>:
+                                <ul>
+                                    <li><strong>狩りの本能 (パッシブ)</strong>: 捕食アクション実行時、除去した被食者コマの数に応じて追加で1食料リソースを得る。</li>
+                                    <li><strong>追跡 (アクション - コスト: 食料1)</strong>: 自身のコマ1個を、現在いるタイルから2タイル先の隣接するタイルに移動させる。ただし、間に他のコマが存在するタイルを通過することはできない。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h3>8.2. 被食者プレイヤー</h3>
+                        <ul>
+                            <li><strong>特殊能力</strong>:
+                                <ul>
+                                    <li><strong>警戒心 (パッシブ)</strong>: 捕食者プレイヤーのコマが自身のコマから1タイル以内に移動してきた場合、直ちに自身のコマ1個を隣接する空きタイルに無料で移動させる（この移動はアクションカウントに含めない）。</li>
+                                    <li><strong>隠れる (アクション - コスト: 水1)</strong>: 自身のコマ1個を、ゲームボード上の任意の空きタイルに移動させる。この移動中は捕食者プレイヤーの追跡アクションの対象にならない。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h3>8.3. 植物プレイヤー</h3>
+                        <ul>
+                            <li><strong>特殊能力</strong>:
+                                <ul>
+                                    <li><strong>根の広がり (パッシブ)</strong>: 維持フェーズでのリソース生産時、自身のコマが存在するタイルに隣接する全ての空きタイルに、追加で1リソースを生産する。</li>
+                                    <li><strong>光合成 (アクション - コスト: なし)</strong>: 自身のコマが位置するタイルに、対応するリソースを1つ増やすアクションを2回まで実行できる（1アクションマーカーで2回）。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h3>8.4. 環境要因プレイヤー (上級者向け、選択ルール)</h3>
+                        <ul>
+                            <li><strong>特殊能力</strong>:
+                                <ul>
+                                    <li><strong>予測 (アクション - コスト: 1アクションマーカー)</strong>: イベントカード山札の上から3枚をPeekし、そのうち1枚を選択して即座に適用する。残りの2枚は山札の一番下に戻す。<strong>このアクションにより適用したイベントカードは、そのラウンドのイベントフェーズで引かれるイベントカードの効果と重複して発生する。</strong></li>
+                                    <li><strong>生態系干渉 (コスト: エネルギー2消費)</strong>: ゲームボード上の任意のコマ1つを、隣接する空きタイルに強制的に移動させる。この移動は地形の影響を受けない。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="overview.html">Game Overview</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="components.html">Components</a></li>
+                    <li><a href="event_cards.html">Event Cards</a></li>
+                    <li><a href="difficulty_variants.html">Difficulty & Variants</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#" class="social-icon"><img src="images/twitter_placeholder.png" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="images/facebook_placeholder.png" alt="Facebook"></a>
+            </div>
+            <p>&copy; 2025 生態系のバランス. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
